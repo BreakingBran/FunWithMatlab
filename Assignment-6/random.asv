@@ -1,0 +1,7 @@
+function a = randomizer(k)
+persistent buffer
+if isempty(buffer)
+    buffer = x;
+else
+    buffer(end+1) = x;
+end    
